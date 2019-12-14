@@ -23,7 +23,7 @@ exports.slack = functions.https.onRequest(expressReceiver.app);
 const request = require('request-promise-native');
 const yahooAppId = config.YAHOO_JAPAN_API_CLIENT_ID;
 const yahooMapMode = config.YAHOO_JAPAN_API_MAP_MODE || 'map';
-const slashCommandName = (config.SLASH_COMMAND_NAME || 'amesh').replace(/\//, '');
+const slashCommandName = (config.SLASH_COMMAND_NAME || 'amedos').replace(/\//, '');
 
 app.command(`/${slashCommandName}`, async ({ command, ack, context }) => {
     ack();
@@ -72,7 +72,7 @@ function uploadImage(args: UploadImageArgs): Promise<void> {
         token: args.token,
         title: `${args.prefKanjiName}付近の現在の雨雲レーダーを表示しています`,
         file: args.file,
-        filename: `amesh_${args.prefName}.gif`,
+        filename: `amedos_${args.prefName}.gif`,
         filetype: `image/png`,
         channels: args.channelId
     }).then(console.log);

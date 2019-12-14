@@ -14,7 +14,7 @@
     "env": {
         "SLASH_COMMAND_NAME": {
             "description": "Name the command and set the same one in Slack App configuration",
-            "value": "amesh"
+            "value": "amedos"
         },
         "TZ": {
             "description": "This app is supposed to be usd in Japan Standard Time",

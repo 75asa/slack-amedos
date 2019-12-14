@@ -22,7 +22,7 @@ app.error(printCompleteJSON);
 const request = require('request-promise-native');
 const yahooAppId = process.env.YAHOO_JAPAN_API_CLIENT_ID;
 const yahooMapMode = process.env.YAHOO_JAPAN_API_MAP_MODE || 'map';
-const slashCommandName = (process.env.SLASH_COMMAND_NAME || 'amesh').replace(/\//, '');
+const slashCommandName = (process.env.SLASH_COMMAND_NAME || 'amedos').replace(/\//, '');
 
 // --------------------------------------
 // Slack App Frontend
@@ -128,7 +128,7 @@ function uploadImage(args: UploadImageArgs): Promise<void> {
             token: args.token,
             title: `${args.prefKanjiName}付近の現在の雨雲レーダーを表示しています`,
             file: args.file,
-            filename: `amesh_${args.prefName}.png`,
+            filename: `amedos_${args.prefName}.png`,
             filetype: `image/png`,
             channels: args.channelId
         })

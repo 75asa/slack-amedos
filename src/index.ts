@@ -20,7 +20,7 @@ const GIFEncoder = require('gifencoder');
 const request = require('request-promise-native');
 const yahooAppId = process.env.YAHOO_JAPAN_API_CLIENT_ID;
 const yahooMapMode = process.env.YAHOO_JAPAN_API_MAP_MODE || 'map';
-const slashCommandName = (process.env.SLASH_COMMAND_NAME || 'amesh').replace(/\//, '');
+const slashCommandName = (process.env.SLASH_COMMAND_NAME || 'amedos').replace(/\//, '');
 
 app.command(`/${slashCommandName}`, async ({ command, ack, context }) => {
     ack();
@@ -211,7 +211,7 @@ function uploadImage(args: UploadImageArgs): Promise<void> {
         token: args.token,
         title: `${args.prefKanjiName}付近の${args.radarType}雨雲レーダーを表示しています`,
         file: args.file,
-        filename: `amesh_${args.prefName}.${args.filetype}`,
+        filename: `amedos_${args.prefName}.${args.filetype}`,
         filetype: `image/${args.filetype}`,
         channels: args.channelId
     }).then(console.log);

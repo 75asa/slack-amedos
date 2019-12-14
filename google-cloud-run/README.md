@@ -2,7 +2,7 @@
 
 This is a working example app which displays Japan weather radar maps on Slack. This application is built with [Bolt⚡️](https://github.com/SlackAPI/bolt) and [Yahoo! JAPAN Static Map API (雨雲レーダー表示)](https://developer.yahoo.co.jp/webapi/map/openlocalplatform/v1/static.html#exp_weather).
 
-## `/amesh {prefecture name}`
+## `/amedos {prefecture name}`
 
 This command instantly posts the present moment image.
 
