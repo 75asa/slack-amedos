@@ -201,6 +201,11 @@ const prefectures: { [name: string]: Prefecture } = {
 };
 prefectures['oosaka'] = prefectures['osaka'];
 prefectures['ohsaka'] = prefectures['osaka'];
+prefectures["大阪"] = prefectures["osaka"];
+prefectures["東京"] = prefectures["tokyo"];
+prefectures["tokio"] = prefectures["tokyo"];
+prefectures["neo tokio"] = prefectures["tokyo"];
+prefectures["neo tokyo"] = prefectures["tokyo"];
 prefectures['nigata'] = prefectures['niigata'];
 prefectures['hyougo'] = prefectures['hyogo'];
 prefectures['kouchi'] = prefectures['kochi'];
