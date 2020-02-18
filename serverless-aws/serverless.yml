@@ -4,6 +4,7 @@ service:
 plugins:
   - serverless-plugin-typescript
   - serverless-offline
+  - serverless-dotenv-plugin
 
 provider:
   name: aws
