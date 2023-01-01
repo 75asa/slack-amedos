@@ -24,7 +24,7 @@
     "serverless-dotenv-plugin": "^2.3.2",
     "serverless-offline": "^5.8.0",
     "serverless-plugin-typescript": "^1.1.9",
-    "ts-loader": "^5.3.3",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.2.4"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
