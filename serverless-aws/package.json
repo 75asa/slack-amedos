@@ -22,7 +22,7 @@
     "@types/node": "^10.12.18",
     "serverless": "^1.48.2",
     "serverless-dotenv-plugin": "^2.3.2",
-    "serverless-offline": "^5.8.0",
+    "serverless-offline": "^12.0.4",
     "serverless-plugin-typescript": "^1.1.9",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4"
